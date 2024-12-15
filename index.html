@@ -11,11 +11,11 @@
         <h1 class="loginheading"> Login to Your Account </h1>
         <p class="loginpara">Login using social networks</p>
       
-               
-        <img class="fb" src="https://th.bing.com/th/id/OIP.CNb0Pbw_FOTh5QSrEzKcRQHaHa?rs=1&pid=ImgDetMain" width="25px" height="25px"/> 
-        <img class="google" src="https://th.bing.com/th/id/OIP.t1rsr55wqbF2BJfjO81tsQHaHl?rs=1&pid=ImgDetMain" width="25px" height="25px"/> 
-        <img class="twitter" src="https://th.bing.com/th/id/OIP.H836RvDYYgQZcZn0TC8qBAHaHa?rs=1&pid=ImgDetMain" width="25px" height="25px"/>   
-        
+        <div>  
+            <img class="fb" src="https://th.bing.com/th/id/OIP.CNb0Pbw_FOTh5QSrEzKcRQHaHa?rs=1&pid=ImgDetMain" width="25px" height="25px"/> 
+            <img class="google" src="https://th.bing.com/th/id/OIP.t1rsr55wqbF2BJfjO81tsQHaHl?rs=1&pid=ImgDetMain" width="25px" height="25px"/> 
+            <img class="twitter" src="https://th.bing.com/th/id/OIP.H836RvDYYgQZcZn0TC8qBAHaHa?rs=1&pid=ImgDetMain" width="25px" height="25px"/>   
+        </div>  
         
         <p class="or"> OR</p>
         <!-- <label for name="email">Email</label> -->
@@ -23,9 +23,15 @@
         <br>
         <input class="email" type="password" placeholder="Password">
         <br>
-        <button class="button2" onclick="window.location.href='signup.html'">
+         <button class="signin" onclick="window.location.href='signin.html'">
                     Sign In
-            </button>
+        </button>
+    </div>
+
+    <div>
+        <p class="singuplink"> No Account.... Click here to <a href="./signup.html">Sign up</a> 
+        </p>
+        <button class="signup" onclick="window.location.href='signup.html'"> Sign Up </button>
     </div>
 </body>
 </html>

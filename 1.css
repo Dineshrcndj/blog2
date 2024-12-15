@@ -98,7 +98,7 @@
     
 } */
 
-.button2{
+.signin{
     margin-left:25%;
     margin-top:5%;
     background-color:lightblue;
@@ -111,4 +111,11 @@
     font-style:none;
     text-decoration: none;
     
+}
+.signup{
+    margin-left:
+}
+
+.signuplink{
+    text-align: center;
 }
